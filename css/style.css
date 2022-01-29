@@ -1,0 +1,50 @@
+#navbar {
+    opacity: 0.9;
+}
+#nav {
+    border-top: 1px solid #ddd;
+    margin-top: 15px;
+}
+#nav .nav-item {
+    padding: 10px 0;
+}
+@media (min-width: 768px) {
+    #nav {
+        border-top: 0;
+        margin-top: 0;
+    }
+}
+
+#showcase {
+    background: url("../image/mountains.jpg");
+    background-attachment: fixed;
+    min-height: 640px;
+    
+}
+
+.overlay {
+    background-color: rgba(50, 145, 165, 0.6);
+    padding-top: 110px;
+    min-height: 640px;
+}
+.book-image {
+    height: 500px;
+}
+
+.main-title {
+    line-height: 180%;
+    font-weight: 300;
+    padding: 80px 0;
+}
+#register{
+    background-color: darkslategrey;
+    padding: 32px;
+}
+
+.person-image{
+    margin-top: -70px;
+}
+
+.person-card{
+    margin-top: 70px;
+}
